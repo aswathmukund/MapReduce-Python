@@ -1,9 +1,10 @@
-from mrjob.job import MRJob
 
+'Simple Join operation in Map Reduce using MRJob'
 ' Student table has  ID,Name'
 ' Marks table has ID,Marks'
 ' For every ID, sum all the marks and display only if the Student has atleast one mark'
 
+from mrjob.job import MRJob
 class MRjoin(MRJob):
    
     def mapper(self, key, line):
