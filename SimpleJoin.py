@@ -34,7 +34,7 @@ class MRjoin(MRJob):
                 name2 = "Unknown"
             else:
                 name2 = name[0]
-                'taking the first value from the name [] list - Just incase if there are two entries for the same ID'
+                
 
         
         'Edit this for other types of joins like outer or full'
