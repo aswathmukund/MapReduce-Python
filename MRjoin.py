@@ -1,4 +1,3 @@
-
 'Simple Join operation in Map Reduce using MRJob'
 ' Student table has  ID,Name'
 ' Marks table has ID,Marks'
@@ -37,6 +36,8 @@ class MRjoin(MRJob):
                 name2 = name[0]
                 'taking the first value from the name [] list - Just incase if there are two entries for the same ID'
 
+        
+        'Edit this for other types of joins like outer or full'
         if name2 != "Unknown" and marks != "" :'
             yield(user,(name2,marks))     
           
