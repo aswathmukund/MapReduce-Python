@@ -1,4 +1,4 @@
 MapReduce-Python
 ================
 
-Map Reduce scripts using Python 
+Map Reduce scripts using Python
