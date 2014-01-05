@@ -38,7 +38,7 @@ class MRjoin(MRJob):
 
         
         'Edit this for other types of joins like outer or full'
-        if name2 != "Unknown" and marks != "" :'
+        if name2 != "Unknown" and marks != "" :
             yield(user,(name2,marks))     
           
           
